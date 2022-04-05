@@ -1,0 +1,13 @@
+{
+  "name": "Blaseball Radio",
+  "version": "1.0",
+  "description": "The only station you need for all your Blaseball listening!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.blaseball.com/*"],
+      "js": ["./index.ts"],
+      "css": ["./style.css"]
+    }
+  ]
+}

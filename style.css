@@ -1,0 +1,30 @@
+#radio {
+  background: white;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  height: 300px;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 10;
+}
+
+#radio.closed {
+  height: 50px;
+}
+
+#radio-title {
+  background: white;
+  position: sticky;
+  padding: 0.5em;
+  top: 0;
+}
+
+.radio-game-button {
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+.radio-game-button.active {
+  background-color: rgb(146, 219, 159);
+}
